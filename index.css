@@ -237,6 +237,12 @@ footer .row {
 footer .row2 {
   padding: 1rem;
 }
+.madebyme {
+  font-weight: lighter;
+  color: white;
+  font-size: 1rem;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
   .carousel-inner h1 {
@@ -269,32 +275,49 @@ footer .row2 {
   .navbar {
     padding: 0.5rem;
   }
+  .nav-item {
+    padding-left: 0.8rem;
+  }
+  .navbar-brand img {
+    width: 60vw;
+    height: auto;
+  }
   .carousel-caption {
     padding: 0%;
   }
   .carousel-caption h1 {
-    padding: 0%;
-    font-size: 150%;
+    font-size: 1.8rem;
   }
   .carousel-caption h3 {
     padding: 0%;
+    font-size: 110%;
   }
-
   .carousel-caption button {
     padding: 0%;
   }
-  .carousel-indicators {
+  /* .carousel-indicators {
     display: none;
-  }
+  } */
   .jumbotron {
     padding: 1rem;
+    font-weight: light;
+  }
+
+  #fixed {
+    background-image: url("./img/jumbotron.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    background-position: center;
   }
   .lead1 {
     margin: 0 !important;
     padding: 0 !important;
   }
   .philosophyclasstext {
-    padding-top: 2rem !important;
+    padding-top: 1.5rem !important;
+    width: 90%;
+    text-align: center;
   }
   .social .fa {
     font-size: 35px;
@@ -304,7 +327,13 @@ footer .row2 {
     padding-bottom: 0 !important;
   }
   .card {
-    width: 80%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 0 auto 1.5rem;
+    box-shadow: 0 2px 2px 1px #ccc;
+  }
+  .madebyme {
+    font-weight: lighter;
+    color: white;
+    font-size: 0.7rem;
   }
 }
